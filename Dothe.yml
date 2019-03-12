@@ -1,0 +1,8 @@
+tasks:
+    compile:
+        cmds:
+            - nearleyc grammar/project.ne -o src/grammar.js
+    test:
+        deps: [ compile ]
+        cmds:
+            - "cat samples/vim.project  |  nearley-test src/project.js"
