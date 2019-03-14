@@ -1,4 +1,4 @@
-main ->  project_top line:* "}" CR {%
+main ->  project_top line:* "}" CR:? {%
     ([top, inner]) => ({
         ...top,
         inner

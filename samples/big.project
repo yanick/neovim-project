@@ -1,0 +1,222 @@
+project=/home/yanick/work/aotds/battle CD=/home/yanick/work/aotds/battle {
+package-lock.json
+schemas/ship.json
+schemas/actions.json
+classic.csv
+blog.js
+#simple20.csv
+state.json
+package.json
+.envrc
+14_core.csv
+jest.config.js
+README.mkd
+classic_core.csv
+booty/index.html
+booty/main.css
+booty/bundle.js
+booty/bundle.js.map
+booty/main.css.map
+.babelrc
+ajv.js
+t/fire_firecons.js
+t/samples/game_1.json
+t/lib/tap_helpers.js
+t/fire_weapon.js
+yarn-error.log
+jscli/README.md
+jscli/httpaotdsbabylcabattleship.md
+jscli/httpjson-schemaorgdraft-06schema.md
+tools/generate_schemas.js
+#simple14.csv
+20_core.csv
+syntax.vim
+Makefile
+yarn.lock
+docson/README.md
+docson/index.html
+docson/templates/signature.html
+docson/templates/box.html
+docson/aotds/thing.json
+docson/aotds/ship.json
+docson/widget.js
+docson/docson-swagger.js
+docson/examples/additionalProperties.json
+docson/examples/example.json
+docson/examples/properties.json
+docson/examples/widget-example.html
+docson/examples/patternProperties.json
+docson/examples/example.html
+docson/examples/dimension.json
+docson/.git/refs/heads/master
+docson/.git/refs/heads/local-ref
+docson/.git/refs/remotes/origin/HEAD
+docson/.git/HEAD
+docson/.git/hooks/applypatch-msg.sample
+docson/.git/hooks/post-rewrite
+docson/.git/hooks/prepare-commit-msg.sample
+docson/.git/hooks/pre-rebase.sample
+docson/.git/hooks/post-commit
+docson/.git/hooks/post-merge
+docson/.git/hooks/ctags
+docson/.git/hooks/post-update.sample
+docson/.git/hooks/post-checkout
+docson/.git/hooks/pre-commit.sample
+docson/.git/hooks/update.sample
+docson/.git/hooks/pre-applypatch.sample
+docson/.git/hooks/commit-msg.sample
+docson/.git/tags
+docson/.git/logs/refs/heads/master
+docson/.git/logs/refs/heads/local-ref
+docson/.git/logs/refs/remotes/origin/HEAD
+docson/.git/logs/HEAD
+docson/.git/index
+docson/.git/config
+docson/.git/packed-refs
+docson/.git/objects/pack/pack-3ae515df60e4de804b37575214057a6c88be2ce3.pack
+docson/.git/objects/pack/pack-3ae515df60e4de804b37575214057a6c88be2ce3.idx
+docson/.gitignore
+docson/docson.js
+docson/LICENSE
+docson/tests/uniqueItems.json
+docson/tests/additionalProperties.json
+docson/tests/enum.json
+docson/tests/definitions.json
+docson/tests/multipleOf.json
+docson/tests/minProperties.json
+docson/tests/type.json
+docson/tests/additionalItems.json
+docson/tests/maxLength.json
+docson/tests/fstab.json
+docson/tests/dependencies.json
+docson/tests/invoice.json
+docson/tests/properties.json
+docson/tests/items.json
+docson/tests/oneOf.json
+docson/tests/ref.json
+docson/tests/allOf.json
+docson/tests/minItems.json
+docson/tests/address.json
+docson/tests/patternProperties.json
+docson/tests/example2.json
+docson/tests/anyOf.json
+docson/tests/minimum.json
+docson/tests/basic.json
+docson/tests/pattern.json
+docson/tests/refRemote.json
+docson/tests/maxProperties.json
+docson/tests/not.json
+docson/tests/minLength.json
+docson/tests/maxItems.json
+docson/tests/test.html
+docson/tests/geo.json
+docson/tests/schema.json
+docson/tests/required.json
+docson/tests/maximum.json
+docson/css/docson.css
+docson/lib/jsonpointer.js
+docson/lib/traverse.js
+docson/lib/handlebars.js
+docson/lib/require.js
+docson/lib/highlight.js
+docson/lib/marked.js
+docson/lib/jquery.js
+docson/bower.json
+object_movement_phase-spec.js
+actioner/README.md
+actioner/package.json
+actioner/src/actioner.js
+actioner/Changes
+actioner/test/basic.js
+actioner/.babelrc
+actioner/dist-node/actioner.js
+actioner/.npmignore
+doc/thing.json
+doc/ship.json
+build/t/test.js
+build/t/move.js
+build/t/battle.js
+build/t/lib/tap_helpers.js
+build/lib/Logger.js
+build/lib/battle/index.js
+build/lib/battle/Actions.js
+build/lib/battle/Reducer.js
+build/lib/battle/Schema.js
+build/lib/battle/Reducer/Log.js
+build/lib/battle/movement.js
+build/lib/Battle/index.js
+build/lib/Battle/Actions.js
+build/lib/Battle/Reducer.js
+build/lib/Battle/Schema.js
+build/lib/Battle/Reducer/Log.js
+foo.pl
+project.md
+foo.js
+src                  Files=src {
+  tap_helpers.js
+  dice Files=. {
+    dice.js
+    dice.test.js
+  }
+  index.js
+  sagas/index.js
+  sagas/selectors.js
+  schemas/game_turn.js
+  schemas/sample_battle.js
+  schemas/ship.js
+  schemas/actions.js
+  execute_firecon_orders.test.js
+  schema/index.js
+  schema/ship.js
+  reducer Files=reducer {
+    test.js
+    index.js
+    objects.js
+    game.test.js
+    utils.js
+    game.js
+    objects/object/test.js
+    objects/object/index.js
+    objects/object/drive.js
+    objects/object/structure/test.js
+    objects/object/structure/index.js
+    utils.test.js
+    log.js
+  }
+  json-schema-shorthand.js
+  movement Files=movement {
+    test.js
+    index.js
+  }
+  schemas.js
+  sample_game.test.js
+  sample_battle.js
+  logger.js
+  weapons/test.js
+  weapons/index.js
+  json-schema-type-checking.js
+  set_orders.test.js
+  middlewares Files=middlewares {
+    index.js
+    damage.test.js
+    utils.js
+    selectors.js
+    index.test.js
+    weapons Files=weapons {
+      test.js
+      index.js
+    }
+    selectors.test.js
+  }
+  Battle/weapons.xxx.js
+  Battle/saga.js
+  Battle/weapons.js
+  actions.js
+}
+#! build 
+#! lib
+#! actioner/node_modules
+#! node_modules
+#! .git
+#! dist
+}

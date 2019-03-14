@@ -1,0 +1,13 @@
+project=/home/yanick/work/aotds/battle CD=/home/yanick/work/aotds/battle {
+package-lock.json
+src                  Files=src {
+  tap_helpers.js
+  dice Files=. {
+    dice.js
+    dice.test.js
+    #? gone_baby
+  }
+  # comment
+  }
+#! ignore
+}

@@ -1,0 +1,8 @@
+project=neovim-project CD=/home/yanick/work/javascript/neovim-project {
+Dothe.yml
+dubious
+src Files=src {
+}
+#! \.git
+#! node_modules
+}

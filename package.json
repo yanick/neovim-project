@@ -2,7 +2,7 @@
   "name": "neovim-project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "rplugin/node/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +10,19 @@
   "author": "Yanick Champoux <yanick@babyl.ca> (http://techblog.babyl.ca)",
   "license": "ISC",
   "dependencies": {
-    "nearley": "^2.16.0"
+    "nearley": "^2.16.0",
+    "lodash": "^4.17.11",
+    "neovim": "^4.4.0",
+    "updeep": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "@types/lodash": "^4.14.123",
+    "@types/msgpack-lite": "^0.1.6",
+    "@types/node": "^11.11.1",
+    "jest": "^24.5.0",
+    "ts-jest": "^24.0.0",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.3333"
   }
 }

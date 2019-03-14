@@ -1,7 +1,10 @@
 tasks:
-    compile:
+    grammar:
         cmds:
             - nearleyc grammar/project.ne -o src/grammar.js
+    compile:
+        cmds:
+            - tsc
     test:
         deps: [ compile ]
         cmds:
