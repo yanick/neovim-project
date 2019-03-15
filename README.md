@@ -1,5 +1,7 @@
 # neovim-project
 
+![screenshot](https://github.com/yanick/neovim-project/raw/master/samples/screenshot.png)
+
 If one wants a file explorer within vim,
 [NERDTree](https://github.com/scrooloose/nerdtree) is the usual go-to. 
 But for the longest time I also wanted a customizable view of a project's files,
